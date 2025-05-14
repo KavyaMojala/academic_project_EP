@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Blue background */
+    color: white;
+}
+
+#userDetailsSection, #projectDetailsSection {
+    display: none; /* Initially hide the sections */
+    margin: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+a {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
